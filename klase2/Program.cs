@@ -50,6 +50,7 @@ namespace klase2
         
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello from branch_test");
             string fileName = "../../../cars.json";
             JsonSerializerSettings json = new JsonSerializerSettings
                 {PreserveReferencesHandling = PreserveReferencesHandling.Objects};
